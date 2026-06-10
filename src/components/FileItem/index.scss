@@ -3,16 +3,16 @@
 .file-item {
   display: flex;
   align-items: center;
-  padding: 12px 16px;
+  padding: 12px;
   background-color: #f6f8fa;
-  border-radius: 14px;
-  margin-bottom: 8px;
+  border-radius: 12px;
+  margin-bottom: 12px;
 
   .file-icon-wrapper {
     background: #ffffff;
     border-radius: 12px;
-    width: 44px;
-    height: 44px;
+    width: 40px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,7 +31,7 @@
 
     .file-name {
       font-size: 14px;
-      font-weight: 500;
+      font-weight: 400;
       color: $color-text-main;
     }
 
@@ -43,8 +43,8 @@
     }
 
     .status-badge-img {
-      width: 14px;
-      height: 14px;
+      width: 16px;
+      height: 16px;
       object-fit: contain;
     }
 
@@ -67,13 +67,12 @@
   .file-actions {
     display: flex;
     align-items: center;
-    gap: 16px;
 
     .btn-action-icon {
       background: none;
       border: none;
       cursor: pointer;
-      padding: 4px;
+      padding: 8px;
       display: flex;
       align-items: center;
 
@@ -110,8 +109,8 @@
   &.error-quota,
   &.error-upload,
   &.error-format {
-    background-color: #fff5f5;
-    border-color: #ffe3e3;
+    background-color: #fdf3f4;
+    border: 1px solid #fbcdd0;
     .file-status-label {
       color: $color-danger;
     }

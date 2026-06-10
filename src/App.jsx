@@ -1,18 +1,6 @@
-import FileUploader from './components/FileUploader/FileUploader';
+import React from 'react';
+import EnterpriseForm from './components/EnterpriseForm/EnterpriseForm';
 
 export default function App() {
-  return (
-    <div
-      style={{
-        padding: '60px 20px',
-        background: '#f5f7fa',
-        minHeight: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'flex-start',
-      }}
-    >
-      <FileUploader />
-    </div>
-  );
+  return <EnterpriseForm />;
 }

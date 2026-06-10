@@ -66,14 +66,13 @@ body {
 h1,
 h2 {
   font-family: var(--heading);
-  font-weight: 500;
   color: var(--text-h);
 }
 
 h1 {
   font-size: 14px;
-  letter-spacing: -0.24px;
   margin: 32px 0;
+  font-weight: 400;
   @media (max-width: 1024px) {
     font-size: 36px;
     margin: 20px 0;
@@ -82,7 +81,8 @@ h1 {
 h2 {
   font-size: 24px;
   line-height: 118%;
-  letter-spacing: -0.24px;
+  letter-spacing: -1%;
+  font-weight: 600;
   margin: 0 0 8px;
   @media (max-width: 1024px) {
     font-size: 20px;
